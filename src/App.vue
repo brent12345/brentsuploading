@@ -40,6 +40,8 @@ export default {
        function progress(snapshot){
         let percentage = (snapshot.bytesTransferred / snapshot.totalBytes) *100;
         uploader.value = percentage
+        const imageSrc = snapshot.ref.getDownloadURL()
+        console.log(imageSrc)
       },
       function error(err){
         console.log(err)
@@ -47,7 +49,7 @@ export default {
       function complete(){
          console.log('complete upload')
       }
-      );
+      )
     },
     checkFileName (file) {
       console.log(file)
