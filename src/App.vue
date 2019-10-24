@@ -9,7 +9,7 @@
 <script>
   import Firebase from 'firebase'
     const config = {
-      apiKey: "AIzaSyAAbexKrw69BHwE3VVXMvSzh3VLmKnqvQ8",
+      apiKey: "",
     authDomain: "udemy-geo-ninjas-a7f3b.firebaseapp.com",
     databaseURL: "https://udemy-geo-ninjas-a7f3b.firebaseio.com",
     projectId: "udemy-geo-ninjas-a7f3b",
